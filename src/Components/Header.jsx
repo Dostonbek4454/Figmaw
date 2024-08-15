@@ -50,6 +50,7 @@ const Header = () => {
         <div className='planet flex mobile-planet'>
             <div className='planet-left'>
                 <h1 className='h1'>Welcome to GreenShop</h1>
+                <h1 className='h1'>Welcome to GreenShop</h1>
                 <h2 className='h2'>LET’S MAKE A BETTER <span className='span'>PLANET</span></h2>
                 <p className='p'>
                 We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!
