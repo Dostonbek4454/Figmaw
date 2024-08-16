@@ -86,10 +86,94 @@ const Categories = () => {
                 </div>
             </div>
         </div>
-        <div className='categories-section relative'></div>
+
+
+
+
+
+
+
+
+        <div className='categories-section relative'>
+        <button className='btn1'><span className='span3'>13% OFF</span></button>
+        <div className='planets flex ml-10'>
+            <img src="./src/assets/Barbeton.png" width="250px" height="250px" alt="Barberton" />
+            <img src="./src/assets/Angel.png" width="250px" height="250px" alt="Angel" />
+            <img src="./src/assets/African.png" width="250px" height="250px" alt="African" />
+        </div>
+        <div className='icons flex justify-center items-center'>
+            <img src="./src/assets/Xarid.png" width="20px" height="20px" alt="Xarid" />
+            <img src="./src/assets/Yurak.png" width="20px" height="20px" alt="Yurak" />
+            <img src="./src/assets/Lupa.png" width="20px" height="20px" alt="Lupa" />
+        </div>
+        <div className='planets-price flex mb-4'>
+        <div className='mb-4'>
+            <h4 className='mr-40 planets-h4'>Barberton Daisy</h4>
+            <p className='mr-40 planets-p'>$119.00</p>
+        </div>
+        <div>
+            <h4 className='mr-40 planets1-h4'>Angel Wing Begonia</h4>
+            <p className='mr-40 planets1-p'>$169.00</p>
+        </div>
+        <div>
+            <h4 className='planets2-h4'>African Violet</h4>
+            <div className='flex'><p className='planets2-p'>$199.00</p>
+            <span className='ml-4 line-through plants-span'>$229.00</span></div>
+        </div>
+        </div>
+        <div className='planets flex ml-10 mb-10'>
+            <img src="./src/assets/Beach.png" width="250px" height="250px" alt="Barberton" />
+            <img src="./src/assets/Blushing.png" width="250px" height="250px" alt="Angel" />
+            <img src="./src/assets/Aluminum.png" width="250px" height="250px" alt="African" />
+        </div>
+        <div className='planets-price flex'>
+        <div>
+            <h4 className='mr-40 planets3-h4'>Beach Spider Lily</h4>
+            <p className='mr-40 planets3-p'>$129.00</p>
+        </div>
+        <div>
+            <h4 className='mr-40 planets4-h4'>Blushing Bromeliad</h4>
+            <p className='mr-40 planets4-p'>$139.00</p>
+        </div>
+        <div>
+            <h4 className='planets5-h4'>Aluminum Plant</h4>
+            <p className='planets5-p'>$179.00</p>
+        </div>
+        </div>
+        <div className='planets flex ml-10 mt-10'>
+            <img src="./src/assets/Birds.png" width="250px" height="250px" alt="Barberton" />
+            <img src="./src/assets/Broadlef.png" width="250px" height="250px" alt="Angel" />
+            <img src="./src/assets/Chinese.png" width="250px" height="250px" alt="African" />
+        </div>
+        <div className='planets-price flex'>
+        <div>
+            <h4 className='mr-40 planets6-h4'>Bird's Nest Fern</h4>
+            <p className='mr-40 planets-p'>$99.00</p>
+        </div>
+        <div>
+            <h4 className='mr-40 planets7-h4'>Broadleaf Lady Palm</h4>
+            <p className='mr-40 planets7-p'>$59.00</p>
+        </div>
+        <div>
+            <h4 className='planets8-h4'>Chinese Evergreen</h4>
+            <p className='planets8-p'>$39.00</p>
+        </div>
+        </div>
+        <div className='flex justify-end'>
+            <img className='number' src="./src/assets/Number.png" alt="Number" />
+        </div>
+        </div>
 
 
         
+
+
+
+
+
+
+
+
         <div className='categories-img relative'>
             <div className='img static'>
                 <img className='super-img ml-10 mr-10' src="./src/assets/Super Sale.png" alt="Super Sale" />

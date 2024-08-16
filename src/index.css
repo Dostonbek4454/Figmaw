@@ -205,7 +205,6 @@
 .categories{
   width: 310px;
   height: 774px;
-  border: 1px solid green;
   justify-content: center;
   margin-top: 70px;
 }
@@ -214,7 +213,6 @@
 .categories-header{
   width: 838px;
   height: 23px;
-  border: 1px solid red;
   left: 420px;
   bottom: 770px;
 
@@ -224,7 +222,6 @@
 .categories-section{
   width: 840px;
   height: 1190px;
-  border: 1px solid yellow;
   left: 420px;
   bottom: 750px;
 }
@@ -232,7 +229,6 @@
 .categories-img{
   width: 370px;
   height: 470px;
-  border: 1px solid blue;
   bottom: 1210px;
 }
 
@@ -406,4 +402,180 @@
   color: #3D3D3D;
 }
 
+.btn1{
+  width: 80px;
+  height: 29px;
+  margin-left: 540px;
+  background-color: #46A358;
+  margin-top: 15px;
+}
 
+.span3{
+  width: 63px;
+  height: 16px; 
+  color: white; 
+}
+
+.planets{
+  width: 258px;
+  height: 300px;
+}
+
+.icons{
+  width: 135px;
+  height: 35px;
+  margin-left: 350px;
+  gap: 25px;
+}
+
+.plants-span{
+  width: 66px;
+  height: 16px;
+  border: 1px;
+  color: #CBCBCB;
+  align-items: center;
+}
+
+.planets-h4{
+  width: 118px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets-p{
+  width: 62px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets1-h4{
+  width: 152px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets1-p{
+  width: 64px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets2-h4{
+  width: 99px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets2-p{
+  width: 64px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets3-h4{
+  width: 127px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets3-p{
+  width: 65px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets4-h4{
+  width: 142px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets4-p{
+  width: 64px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets5-h4{
+  width: 115px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets5-p{
+  width: 64px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets6-h4{
+  width: 116px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets6-p{
+  width: 57px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets7-h4{
+  width: 150px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets7-p{
+  width: 57px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+.planets8-h4{
+  width: 139px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+
+.planets8-p{
+  width: 57px;
+  height: 16px;
+  color: #46A358;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+
+.number{
+  width: 215px;
+  height: 35px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
