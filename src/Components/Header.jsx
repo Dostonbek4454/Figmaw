@@ -2,19 +2,19 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='container'>
+    <div className='container mb-8'>
         <div className='home-desktop flex justify-between mobile mb-8'>
             <div className='flex mobile-div mr-1'>
-            <img className='mobile-lupa mr-2' src="./public/Lupa.png" width="18px" height="18px" alt="Lupa" />
+            <img className='mobile-lupa mr-2' src="./src/assets/Lupa.png" width="18px" height="18px" alt="Lupa" />
             <span className='mobile-span'>Find your plants</span>
             </div>
             <div className='mobile-icon_div'>
-            <img className='mobile-icon' src="./public/Icon.png" width="22px" height="22px" alt="Icon" />
+            <img className='mobile-icon' src="./src/assets/Icon.png" width="22px" height="22px" alt="Icon" />
             </div>
         </div>
-        <div className='flex home-mobile'>
+        <div className='flex justify-between home-mobile'>
             <div className='flex'>
-            <img src="./public/Group.png" alt="Logo" />     
+            <img src="./src/assets/Group.png" alt="Logo" />     
             </div>
             <div>
                 <ul className='flex'>
@@ -25,10 +25,10 @@ const Header = () => {
                 </ul>
             </div>
             <div className='flex'>
-                <img className='ml-8' src="./public/Lupa.png" alt="Lupa" />
-                <img className='ml-8' src="./public/Savdo.png" alt="Xarid" />
+                <img className='ml-8' src="./src/assets/Lupa.png" alt="Lupa" />
+                <img className='ml-8' src="./src/assets/Savdo.png" alt="Xarid" />
                 <button className='flex btn items-center'>
-                <img className='ml-4' src="./public/Exit.png" alt="Exit" />
+                <img className='ml-4' src="./src/assets/Exit.png" alt="Exit" />
                 <span className='header-span'>Login</span>
                 </button>
             </div>
@@ -39,17 +39,16 @@ const Header = () => {
                 <h1 className='mobile-h1'>Welcome to GreenShop</h1>
                 <h2 className='mobile-h2'>LET’S MAKE A BETTER <span className='mobile-left_span'>PLANET</span></h2>
                 <p className='mobile-p'>We are an online plant shop offering a wide range </p>
-                <button className='flex items-center planet-mobile_btn'>SHOP NOW <img className='ml-2' src="./public/yonalish.png" width="18" height="18" alt="yonalish" /></button>
+                <button className='flex items-center planet-mobile_btn'>SHOP NOW <img className='ml-2' src="./src/assets/yonalish.png" width="18" height="18" alt="yonalish" /></button>
             </div>
         </div>
         <div className='planet-mobile_right'>
-            <img src="./public/planet1.png" width="213px" height="213px" alt="planet1" />
-            <img className='planet-mobile-img' src="./public/planet1.png" width="82px" height="82px" alt="planet1" />
+            <img src="./src/assets/planet1.png" width="213px" height="213px" alt="planet1" />
+            <img className='planet-mobile-img' src="./src/assets/planet1.png" width="82px" height="82px" alt="planet1" />
         </div>
         </div>
         <div className='planet flex mobile-planet'>
             <div className='planet-left'>
-                <h1 className='h1'>Welcome to GreenShop</h1>
                 <h1 className='h1'>Welcome to GreenShop</h1>
                 <h2 className='h2'>LET’S MAKE A BETTER <span className='span'>PLANET</span></h2>
                 <p className='p'>
@@ -58,8 +57,8 @@ const Header = () => {
                 <button className='planet-btn'>SHOP NOW</button>
             </div>
             <div className='planet-right'>
-                <img src="./public/planet1.png" width="1000px" height="1000px" alt="Planet" />
-                <img className='planet-img' src="./public/planet1.png" alt="Planet" />
+            <img src="./src/assets/planet1.png" width="1000px" height="1000px" alt="Planet" />
+            <img className='planet-img' src="./src/assets/planet1.png" alt="Planet" />
             </div>
         </div>
     </div>
