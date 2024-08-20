@@ -1,5 +1,25 @@
 import React from 'react'
 
+import aylana from './../assets/aylana.png'
+import uzunlik from './../assets/uzunlik.png'
+import yonalish from './../assets/yonalish.png'
+import Barbeton from './../assets/Barbeton.png'
+import Angel from './../assets/Angel.png'
+import African from './../assets/African.png'
+import Xarid from './../assets/Xarid.png'
+import Yurak from './../assets/Yurak.png'
+import Lupa from './../assets/Lupa.png'
+import Beach from './../assets/Beach.png'
+import Blushing from './../assets/Blushing.png'
+import Aluminum from './../assets/Aluminum.png'
+import Birds from './../assets/Birds.png'
+import Broadlef from './../assets/Broadlef.png'
+import Chinese from './../assets/Chinese.png'
+import Number from './../assets/Number.png'
+import SuperSale from './../assets/Super Sale.png'
+import Gul from './../assets/Gul.png'
+
+
 const Categories = () => {
   return (
     <div className='container static'>
@@ -38,9 +58,9 @@ const Categories = () => {
         Price Range
         </h1>
         <div className='flex mt-4 ml-2'>
-        <img src="./src/assets/aylana.png" width="15px" height="15px" alt="aylana" />
-        <img className='uzunlik' src="./src/assets/uzunlik.png" width="161px" height="0" alt="uzunlik" />
-        <img src="./src/assets/aylana.png" width="15px" height="15px" alt="aylana" />
+        <img src={aylana} width="15px" height="15px" alt="aylana" />
+        <img className='uzunlik' src={uzunlik} width="161px" height="0" alt="uzunlik" />
+        <img  src={aylana} width="15px" height="15px" alt="aylana" />
         </div>
         <p className='ml-2 mt-4 price-p'>Price:<span className='price-span'>$39 - $1230</span></p>
         <button className='price-btn ml-2'>Filter</button>
@@ -82,7 +102,7 @@ const Categories = () => {
                 <div className='flex'>
                     <p className='tepa-p'>Short by:</p>
                     <span className='tepa-span'>Default sorting</span>
-                    <img className='' src="./src/assets/yonalish past.png" width="16px" height="16px" alt="Pastki yonalish" />
+                    <img className='' src={yonalish} width="16px" height="16px" alt="Pastki yonalish" />
                 </div>
             </div>
         </div>
@@ -97,14 +117,14 @@ const Categories = () => {
         <div className='categories-section relative'>
         <button className='btn1'><span className='span3'>13% OFF</span></button>
         <div className='planets flex ml-10'>
-            <img src="./src/assets/Barbeton.png" width="250px" height="250px" alt="Barberton" />
-            <img src="./src/assets/Angel.png" width="250px" height="250px" alt="Angel" />
-            <img src="./src/assets/African.png" width="250px" height="250px" alt="African" />
+            <img src={Barbeton} width="250px" height="250px" alt="Barberton" />
+            <img src={Angel} width="250px" height="250px" alt="Angel" />
+            <img src={African} width="250px" height="250px" alt="African" />
         </div>
         <div className='icons flex justify-center items-center'>
-            <img src="./src/assets/Xarid.png" width="20px" height="20px" alt="Xarid" />
-            <img src="./src/assets/Yurak.png" width="20px" height="20px" alt="Yurak" />
-            <img src="./src/assets/Lupa.png" width="20px" height="20px" alt="Lupa" />
+            <img src={Xarid} width="20px" height="20px" alt="Xarid" />
+            <img src={Yurak} width="20px" height="20px" alt="Yurak" />
+            <img src={Lupa} width="20px" height="20px" alt="Lupa" />
         </div>
         <div className='planets-price flex mb-4'>
         <div className='mb-4'>
@@ -122,9 +142,9 @@ const Categories = () => {
         </div>
         </div>
         <div className='planets flex ml-10 mb-10'>
-            <img src="./src/assets/Beach.png" width="250px" height="250px" alt="Barberton" />
-            <img src="./src/assets/Blushing.png" width="250px" height="250px" alt="Angel" />
-            <img src="./src/assets/Aluminum.png" width="250px" height="250px" alt="African" />
+            <img src={Beach} width="250px" height="250px" alt="Beach" />
+            <img src={Blushing} width="250px" height="250px" alt="Blushing" />
+            <img src={Aluminum} width="250px" height="250px" alt="Aluminum" />
         </div>
         <div className='planets-price flex'>
         <div>
@@ -141,13 +161,13 @@ const Categories = () => {
         </div>
         </div>
         <div className='planets flex ml-10 mt-10'>
-            <img src="./src/assets/Birds.png" width="250px" height="250px" alt="Barberton" />
-            <img src="./src/assets/Broadlef.png" width="250px" height="250px" alt="Angel" />
-            <img src="./src/assets/Chinese.png" width="250px" height="250px" alt="African" />
+            <img src={Birds} width="250px" height="250px" alt="Birds" />
+            <img src={Broadlef} width="250px" height="250px" alt="Broadleaf" />
+            <img src={Chinese} width="250px" height="250px" alt="Chinese" />
         </div>
         <div className='planets-price flex'>
         <div>
-            <h4 className='mr-40 planets6-h4'>Bird's Nest Fern</h4>
+            <h4 className='mr-40 planets6-h4'>Birds Nest Fern</h4>
             <p className='mr-40 planets-p'>$99.00</p>
         </div>
         <div>
@@ -160,7 +180,7 @@ const Categories = () => {
         </div>
         </div>
         <div className='flex justify-end'>
-            <img className='number' src="./src/assets/Number.png" alt="Number" />
+            <img className='number' src={Number} alt="Number" />
         </div>
         </div>
 
@@ -176,11 +196,11 @@ const Categories = () => {
 
         <div className='categories-img relative'>
             <div className='img static'>
-                <img className='super-img ml-10 mr-10' src="./src/assets/Super Sale.png" alt="Super Sale" />
+                <img className='super-img ml-10 mr-10' src={SuperSale} alt="Super Sale" />
                 <h1 className='img-h1 text-center'>UP TO 75% OFF</h1>
             </div>
             <div>
-                <img className='relative img-gul' src="./src/assets/Gul.png" width="370px" height="370px" alt="Gul" />
+                <img className='relative img-gul' src={Gul} width="370px" height="370px" alt="Gul" />
             </div>
         </div>
     </div>

@@ -1,20 +1,27 @@
 import React from 'react'
+import Lupa from './../assets/Lupa.png'
+import Icon from './../assets/Icon.png'
+import Group from './../assets/Group.png'
+import Savdo from './../assets/Savdo.png'
+import Exit from './../assets/Exit.png'
+import planet1 from './../assets/planet1.png'
+
 
 const Header = () => {
   return (
     <div className='container mb-8'>
         <div className='home-desktop flex justify-between mobile mb-8'>
             <div className='flex mobile-div mr-1'>
-            <img className='mobile-lupa mr-2' src="./src/assets/Lupa.png" width="18px" height="18px" alt="Lupa" />
+            <img className='mobile-lupa mr-2' src={Lupa} width="18px" height="18px" alt="Lupa" />
             <span className='mobile-span'>Find your plants</span>
             </div>
             <div className='mobile-icon_div'>
-            <img className='mobile-icon' src="./src/assets/Icon.png" width="22px" height="22px" alt="Icon" />
+            <img className='mobile-icon' src={Icon} width="22px" height="22px" alt="Icon" />
             </div>
         </div>
         <div className='flex justify-between home-mobile'>
             <div className='flex'>
-            <img src="./src/assets/Group.png" alt="Logo" />     
+            <img src={Group} alt="Logo" />     
             </div>
             <div>
                 <ul className='flex'>
@@ -25,10 +32,10 @@ const Header = () => {
                 </ul>
             </div>
             <div className='flex'>
-                <img className='ml-8' src="./src/assets/Lupa.png" alt="Lupa" />
-                <img className='ml-8' src="./src/assets/Savdo.png" alt="Xarid" />
+                <img className='ml-8' src={Lupa} alt="Lupa" />
+                <img className='ml-8' src={Savdo} alt="Savdo" />
                 <button className='flex btn items-center'>
-                <img className='ml-4' src="./src/assets/Exit.png" alt="Exit" />
+                <img className='ml-4' src={Exit} alt="Exit" />
                 <span className='header-span'>Login</span>
                 </button>
             </div>
@@ -43,8 +50,8 @@ const Header = () => {
             </div>
         </div>
         <div className='planet-mobile_right'>
-            <img src="./src/assets/planet1.png" width="213px" height="213px" alt="planet1" />
-            <img className='planet-mobile-img' src="./src/assets/planet1.png" width="82px" height="82px" alt="planet1" />
+            <img src={planet1} width="213px" height="213px" alt="planet1" />
+            <img className='planet-mobile-img' src={planet1} width="82px" height="82px" alt="planet1" />
         </div>
         </div>
         <div className='planet flex mobile-planet'>
@@ -57,8 +64,8 @@ const Header = () => {
                 <button className='planet-btn'>SHOP NOW</button>
             </div>
             <div className='planet-right'>
-            <img src="./src/assets/planet1.png" width="1000px" height="1000px" alt="Planet" />
-            <img className='planet-img' src="./src/assets/planet1.png" alt="Planet" />
+            <img src={planet1} width="1000px" height="1000px" alt="Planet" />
+            <img className='planet-img' src={planet1} alt="Planet" />
             </div>
         </div>
     </div>

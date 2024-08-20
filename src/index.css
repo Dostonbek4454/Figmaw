@@ -579,3 +579,40 @@
   margin-top: 70px;
   margin-bottom: 70px;
 }
+
+
+.plants4{
+  width: 586px;
+  height: 250px;
+  border: 1px solid red;
+  bottom: -15px;
+  left: -33px;
+}
+
+.plants4-img{
+  width: 292px;
+  height: 292px;
+  left: -0px;
+  bottom: 43px;
+  border: 1px solid green;
+}
+.plants4-img1{
+  width: 100px;
+  height: 100px;
+  left: -293px;
+  bottom: -165px;
+  border: 1px solid green;
+}
+
+.bg-div{
+  width: 1205px;
+  height: 302px;
+  border: 4px solid yellow;
+  bottom: 1050px; 
+}
+
+.summer-btn{
+  background-color: #46A358;
+  color: white;
+}
+

@@ -1,5 +1,6 @@
 import Categories from "./Components/Categories"
 import Header from "./Components/Header"
+import Summer from "./Components/Summer"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <Header/>
     <Categories/>
+    <Summer/>
     </>
   )
 }
